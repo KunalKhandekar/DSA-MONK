@@ -33,7 +33,7 @@ var longestOnes = function (nums, k) {
     const n = nums.length;
     const cons = [0, 0];
     let low = 0;
-    let res = -Infinity;
+    let res = -Infinity;    
 
     for (let high = 0; high < n; high++) {
         cons[nums[high]]++;
@@ -55,3 +55,6 @@ var longestOnes = function (nums, k) {
 };
 
 console.log(longestOnes([1,1,1,0,0,0,1,1,1,1,0], 2));
+
+
+new Map().e
